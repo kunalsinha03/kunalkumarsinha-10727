@@ -1,8 +1,49 @@
 # kunalkumarsinha-10727
-Yeh program aapke diye gaye steps ke mutabiq kaam karta hai:
-Menu-Driven Kyun?: Iska maqsad ek aisa calculator banana hai jahan user apni pasand ka option chun sake (jaise square ya power) aur program sirf wahi kaam kare.
-Switch-Case ka Use: Jab hamare paas bahut saare options hote hain, toh switch-case sabse best hota hai taaki program wahi "case" chalaye jo user ne select kiya hai.
-Logic (Multiplication aur Loop):
-Square/Cube: Inhe nikalne ke liye hum number ko usi se multiply karte hain (jaise x \cdot x).
-Power: Jab kisi number ki badi power nikalni ho, toh hum loop ka istemal karte hain taaki wahi multiplication baar-baar ho sake.
-Headers aur Variables: Program ke shuru mein #include <stdio.h> isliye hai taaki hum printf aur scanf use kar sakein, aur variables isliye banaye gaye hain taaki user ka data store ho sake.
+
+
+# Menu-Driven Scientific Calculator
+
+A simple, efficient, and interactive console-based application written in **C** that performs fundamental mathematical operations. This project uses a menu-driven approach to compute squares, cubes, and powers of numbers.
+
+## 📌 Project Overview
+The aim of this project is to create a calculator that allows users to select specific arithmetic operations from a menu. It demonstrates the use of core programming logic without relying heavily on pre-built math libraries for basic exponents.
+
+## 🚀 Why This Project?
+* **Skill Development:** Built to demonstrate understanding of control structures like `switch-case` statements and loops.
+* **Logic Building:** Implements power calculations using repeated multiplication loops instead of standard library functions.
+* **User Interaction:** Focuses on handling user inputs (`scanf`) and creating a clear, navigable CLI (Command Line Interface).
+
+## 🛠️ Tech Stack
+* **Language:** C Programming Language
+* **IDE/Editor:** VS Code
+* **Version Control:** Git & GitHub
+
+## ⚙️ Features & Utility
+* **Menu-Driven Interface:** Users are presented with a clear list of options:
+    1.  **Square:** Calculates $x^2$.
+    2.  **Cube:** Calculates $x^3$.
+    3.  **Power:** Calculates $x^y$ (using loops).
+* **Instant Results:** Provides immediate and accurate output for mathematical queries.
+* **Repeatability:** (Optional) Allows the user to perform multiple calculations without restarting the program.
+
+## 🔮 Future Scope
+* **Advanced Operations:** Plan to add trigonometric functions (Sin, Cos, Tan) and logarithms.
+* **Error Handling:** Implementing checks for invalid inputs (e.g., characters instead of numbers).
+* **GUI Version:** Upgrading from a console-based app to a Graphical User Interface for better user experience.
+
+## 📖 How to Run
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+2.  **Compile the code:**
+    ```bash
+    gcc calculator.c -o calculator
+    ```
+3.  **Run the application:**
+    ```bash
+    ./calculator
+    ```
+
+---
+*Created by [Your Name]*
